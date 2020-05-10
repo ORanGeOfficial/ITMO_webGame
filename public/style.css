@@ -1,0 +1,67 @@
+body{
+	font-family: 'Caveat', cursive;
+	color: #0109A9;
+}
+
+.table{
+	display: flex;
+	flex-direction: column;
+}
+
+.field{
+	position: absolute;
+	top: 2%;
+	left: 25%;
+	width: 620px;
+	height: 620px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cell{
+	width: 20px;
+	height: 20px;
+	border: 1px solid #C8DBE2;
+	box-sizing: border-box;
+}
+
+.number{
+	width: 20px;
+	height: 20px;
+	font-size: 18px;
+}
+
+.default__cell{
+	background-color: #FDFFFF;
+	cursor: pointer;
+}
+
+.red__cell{
+	background-color: #DB0300;
+}
+
+.blue__cell{
+	background-color: #0109A9;
+}
+
+.dices{
+	width: 150px;
+	height: 40px;
+	cursor: pointer;
+	font-size: 80px;
+	font-weight: 700;
+}
+
+.restart{
+	border: 1px solid #0109A9;
+	font-family: inherit;
+	background-color: transparent;
+	padding: 5px 15px;
+	color: #0109A9;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.restart p{
+	font-size: 25px;
+}

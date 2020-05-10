@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../sources/client/index.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,cAAc,EAAE,MAAM,iBAAiB,CAAC;AACjD,OAAO,EAAE,SAAS,EAAE,MAAM,iBAAiB,CAAC;AAE5C,cAAc,CAAE,SAAS,CAAE,CAAC","sourcesContent":["import { listenMessages } from './connection.js';\nimport { onMessage } from './on-message.js';\n\nlistenMessages( onMessage );\n"]}

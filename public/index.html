@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<title>Захват территории</title>
+</head>
+<body>
+	<header>
+		<h1>Захват территории</h1>
+	</header>
+	
+	<main class="waiting">
+		<h2>Подождите подключения следующего игрока</h2>
+	</main>
+	
+	<main class="game" hidden>
+		<h2>Ход противника</h2>
+		<div class="table">
+			<div class="field">
+			</div>
+			<div class="dices" hidden>
+				ROLL
+			</div>
+		</div>
+	</main>
+	
+	<main class="result" hidden>
+		<h2>Игра закончена</h2>
+		<p>Игра прервана</p>
+		<button type="button" class="restart">Перезапустить</button>
+	</main>
+	
+	<script type="module" src="scripts/index.js"></script>
+</body>
+</html>
